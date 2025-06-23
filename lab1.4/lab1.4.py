@@ -33,7 +33,6 @@ def value_ip(net):
     print(int(net.netmask)*2**32 + int(net.network_address))
     return int(net.netmask)*2**32 + int(net.network_address)
     
-    
 
 net_list = []
 for i in range(0, 20): 
