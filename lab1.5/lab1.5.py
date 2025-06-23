@@ -1,7 +1,9 @@
 import glob
 
 files_list = glob.glob("lab1.5/config_files/*.log")
+
 ip_addresses_list = []
+
 for file in files_list:
     openedFiled = open(file)
     lines = openedFiled.readlines()
